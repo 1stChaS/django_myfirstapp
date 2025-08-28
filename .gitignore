@@ -1,0 +1,88 @@
+# --- Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Packaging / build artifacts
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# --- Logs & misc
+*.log
+logs/
+
+# --- Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# --- Django
+local_settings.py
+# DB (SQLite; keep if you want DB in git, but usually ignore for dev)
+db.sqlite3
+db.sqlite3-journal
+*.sqlite3
+*.sqlite3-*
+# Collected static files (result of `collectstatic`)
+/staticfiles/
+/static_collected/
+# If your STATIC_ROOT is "static/", uncomment the next line
+# /static/
+
+# DO NOT ignore migrations; keep them in version control
+# migrations/
+
+# --- Env files / secrets
+.env
+.env.*
+!.env.example
+
+# --- Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytestdebug.log
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# --- Type checkers / linters
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Editors & OS junk
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+.python-version  # pyenv
+
+# Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
